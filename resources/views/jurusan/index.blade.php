@@ -3,7 +3,7 @@
     <center>
         <b>
             <h2>LIST DATA JURUSAN</h2>
-            <a href="/jurusan/create" class="button-primary">Tambah Data</a>
+            <a href="/jurusan/create" class="button-primary">TAMBAH DATA</a>
             @if (session('success'))
                 <p class="text-success">{{ session('success') }}</p>
             @endif

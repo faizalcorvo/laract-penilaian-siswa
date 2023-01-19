@@ -52,7 +52,6 @@ class SiswaController extends Controller
             'kelas_id' => 'required',
             'password' => 'required'
         ]);
-
         Siswa::create($request->all());
         return redirect('/siswa/index')->with('success', "Data Siswa Berhasil Ditambah");
     }
@@ -102,7 +101,7 @@ class SiswaController extends Controller
             'password' => 'required'
         ]);
         $siswa->update($request->all());
-        return redirect('/siswa/index')->with('success', "Data Siswa Berhasil Diupdate");
+        return redirect('/siswa/index')->with('success', "Data Siswa Berhasil Diubah");
     }
 
     /**

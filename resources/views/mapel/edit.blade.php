@@ -7,7 +7,7 @@
             @csrf
             <table width="50%">
                 <tr>
-                    <td class="bar">NAMA MATA PELAJARAN</td>
+                    <td class="bar">MATA PELAJARAN</td>
                     <td class="bar">
                         <input type="text" name="nama_mapel" id="nama_mapel" value="{{ $mapel->nama_mapel }}">
                     </td>

@@ -11,9 +11,9 @@ const Home = () => {
             <Layout>
                 <center>
                     <b>
-                        <br/>
-                        SELAMAT DATANG USER DENGAN AKSES MASUK{""}
-                        {user?.kode_admin ?? user?.nis ?? user?.nip}
+                        <br />
+                        SELAMAT DATANG USER DENGAN AKSES MASUK {""}
+                        {user?.id_admin ?? user?.nis ?? user?.nip}
                     </b>
                 </center>
             </Layout>
